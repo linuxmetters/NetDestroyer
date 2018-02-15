@@ -1,9 +1,12 @@
-# NetDestroyer
-EZ kick people off wifi.
+Wifidestroyer 
+shuxprojects (C) 2018
+linuxmetters@gmail.com
+========
 
-Basically you kick people off wifi, i got this idea from wifikill and netcut (android and windows), so i decided to make one for Linux :)
-Feel free to use it but don't be jerk and re-do it or steal it.
+A python program developed by shuxprojects that uses scapy to literally kick people off wifi. The script must be run as sudo. The script also requires that scapy be installed. To install it, do
 
-In case you want to share it or edit-publish, contact me @ linuxmetters@gmail.com, or mention SHUXPROJECT : ) thats all am askin for.
+    sudo apt-get install python-scapy
 
-
+The program lists the devices connected to the network then allows you to:
+ - Prevent the desired ip from accessing the network
+ - Prevent everyone from accessing the network
